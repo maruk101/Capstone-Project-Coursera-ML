@@ -1,6 +1,6 @@
+# frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec :name => "jekyll"
 
 gem "rake", "~> 13.0"
 
@@ -13,27 +13,6 @@ end
 
 #
 
-group :test do
-  gem "cucumber", RUBY_VERSION >= "2.5" ? "~> 5.1.2" : "~> 4.1"
-  gem "httpclient"
-  gem "jekyll_test_plugin"
-  gem "jekyll_test_plugin_malicious"
-  gem "memory_profiler"
-  gem "nokogiri", "~> 1.7"
-  gem "rspec"
-  gem "rspec-mocks"
-  gem "rubocop", "~> 1.10"
-  gem "rubocop-minitest"
-  gem "rubocop-performance"
-  gem "rubocop-rake"
-  gem "rubocop-rspec"
-  gem "test-dependency-theme", :path => File.expand_path("test/fixtures/test-dependency-theme", __dir__)
-  gem "test-theme", :path => File.expand_path("test/fixtures/test-theme", __dir__)
-  gem "test-theme-skinny", :path => File.expand_path("test/fixtures/test-theme-skinny", __dir__)
-  gem "test-theme-symlink", :path => File.expand_path("test/fixtures/test-theme-symlink", __dir__)
-
-  gem "jruby-openssl" if RUBY_ENGINE == "jruby"
-end
 
 #
 
@@ -97,26 +76,5 @@ group :site do
   gem "jekyll-sitemap"
   gem "jemoji"
 end
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
 
-end
-
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-
-gem "webrick", "~> 1.7"
+gem "webrick"
