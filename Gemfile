@@ -78,3 +78,5 @@ group :site do
 end
 
 gem "webrick"
+
+gem "github-pages"
