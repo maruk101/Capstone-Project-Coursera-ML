@@ -18,18 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-<<<<<<< HEAD
-title: IBM Capstone Project presentation
+title: "IBM Capstone Project presentation"
 email: topsecret@email.com
 description: >- # this means to ignore newlines until "baseurl:"
   I just need this site to finish my IBM course!!
-=======
 title: IBM Capstone Project Blog
 email: mxxxxwxxxxxx@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website is just here to finally finish my IBM Capstone Project.
->>>>>>> b9fbe983662db5768936da557f5a0eec1c6bc60b
-baseurl: "ibm_capstone" # the subpath of your site, e.g. /blog
+baseurl: /ibm_capstone" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: -none-
 github_username:  maruk101
