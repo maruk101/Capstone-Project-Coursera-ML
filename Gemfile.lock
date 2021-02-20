@@ -41,6 +41,12 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+<<<<<<< HEAD
+=======
+    lanyon (0.4.2)
+      jekyll (>= 2.0)
+      rack (>= 1.6, < 3.0)
+>>>>>>> b9fbe983662db5768936da557f5a0eec1c6bc60b
     liquid (4.0.3)
     listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -53,6 +59,10 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
+<<<<<<< HEAD
+=======
+    rack (2.2.3)
+>>>>>>> b9fbe983662db5768936da557f5a0eec1c6bc60b
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -72,6 +82,10 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
+<<<<<<< HEAD
+=======
+  lanyon
+>>>>>>> b9fbe983662db5768936da557f5a0eec1c6bc60b
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
