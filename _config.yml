@@ -1,6 +1,6 @@
 title: IBM Capstone Project
 author: maruk101
-  email: maruk101@github.com
+email: maruk101@github.com
 description: > # this means to ignore newlines until "show_excerpts:"
   This site is created to showcase the IBM capstone project.
 show_excerpts: false # set to true to show excerpts on the homepage
