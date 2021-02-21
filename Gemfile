@@ -42,7 +42,6 @@ end
 group :jekyll_optional_dependencies do
   gem "jekyll-coffeescript"
   gem "jekyll-docs", :path => "../docs" if Dir.exist?("../docs") && ENV["JEKYLL_VERSION"]
-  gem "jekyll-feed", "~> 0.9"
   gem "jekyll-gist"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
@@ -72,11 +71,20 @@ group :site do
 
   gem "jekyll-avatar"
   gem "jekyll-mentions"
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
   gem "jemoji"
 end
 
 gem "webrick"
+gem "minimal"
+gem "actionpack"
+gem "jekyll-theme-hacker"
+gem "jekyll-theme-dinky"
 
-gem "github-pages"
+gem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-remote-theme'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+end
