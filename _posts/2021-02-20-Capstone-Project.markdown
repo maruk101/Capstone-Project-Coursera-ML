@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "The Battle of the Cities and their restaurants"
 date:   2021-02-20 15:05:58 +0100
 categories: IBM Capstone Project
