@@ -4,7 +4,7 @@ title:  "The Battle of the Cities and their restaurants"
 date:   2021-02-20 15:05:58 +0100
 categories: IBM Capstone Project
 ---
-TES TEST tested
+
 ## Applied Data Science Capstone by IBM/Coursera (Week 2)
 
 ### Maurus Wüllner, 14.02.2021
